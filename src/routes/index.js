@@ -12,7 +12,7 @@ function LoginNavigation() {
     <Stack.Navigator>
             <Stack.Screen name='Splash' component={Splash} options={{ headerShown: false }}/>
             <Stack.Screen name='Login' component={Login} options={{ headerStyle: {backgroundColor: '#10ac84'} }}/>
-            <Stack.Screen name='Home' component={Home} options={{ headerShown: false }}/>
+            {/* <Stack.Screen name='Home' component={Home} options={{ headerShown: false }}/> */}
     </Stack.Navigator>
 }
 
@@ -20,7 +20,7 @@ export default function NavigationApp() {
     return (
         // <LoginNavigation/>
         <Stack.Navigator>
-            <Stack.Screen name='Riwayat' component={Riwayat} options={{ headerStyle: {backgroundColor: '#10ac84'} }}/>
+            <Stack.Screen name='Home' component={Home} options={{ headerStyle: {backgroundColor: '#10ac84'} }}/>
         </Stack.Navigator>
     );
 }

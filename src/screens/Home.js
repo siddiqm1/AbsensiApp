@@ -1,9 +1,9 @@
 import React from 'react';
 import {Text, View, StyleSheet, Image, ScrollView} from 'react-native';
-import Profil from '../Profil';
-import SettingAndAccount from '../SettingAndAccount';
-import Camera from '../Camera';
-import Menus from '../Menus';
+import Profil from './Profil';
+import SettingAndAccount from './SettingAndAccount';
+import Camera from './Camera';
+import Menus from './Menus';
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <ScrollView>
         <Menus />
       </ScrollView>
-    <View style={styles.camera}>
+      <View style={styles.camera}>
         <Camera />
       </View>
     </View>

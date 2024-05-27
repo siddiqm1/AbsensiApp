@@ -26,3 +26,36 @@ export const mahasiswa = [
     image: require("../assets/image/logo.jpg"),
   },
 ];
+
+export const kelas = [
+  {
+    kom : 'KOM B 2022',
+    mataKuliah : [
+      {
+        pbo : 'PBO',
+        jadwal : [
+          {
+            pertemuan1 : 'Pertemuan 1',
+            pertemuan2 : 'Pertemuan 2',
+            pertemuan3 : 'Pertemuan 3',
+            pertemuan4 : 'Pertemuan 4',
+            pertemuan5 : 'Pertemuan 5',
+            pertemuan6 : 'Pertemuan 6'
+          }
+        ],
+
+        jarkom : 'Jaringan Komputer',
+        jadwal : [
+          {
+            pertemuan1 : 'Pertemuan 1',
+            pertemuan2 : 'Pertemuan 2',
+            pertemuan3 : 'Pertemuan 3',
+            pertemuan4 : 'Pertemuan 4',
+            pertemuan5 : 'Pertemuan 5',
+            pertemuan6 : 'Pertemuan 6'
+          }
+        ]
+      }
+    ]
+  }
+]
